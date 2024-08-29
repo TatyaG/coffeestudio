@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellnkey</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container flex">
+                <div class="header__left flex">
+                    <ul class="header__list list list-reset flex">
+                        <li class="list__item">
+                            <div class="header__location"><span>Местоположение</span></div>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="">Поддержка</a>
+                        </li>
+                    </ul>
+                    <ul class="header__list list-reset flex">
+                        <li class="list__item">
+                            <a class="list__link" href="">Компаниям</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="">Партнерам</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="/" class="header__logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <div class="header__right flex">
+                    <button class="btn-reset header__sign"><span>Вход</span></button>
+                    <ul class="list-reset header__menu menu flex">
+                        <li class="menu__item">
+                            <button class="btn-reset menu__btn menu__btn--search"></button>
+                        </li>
+                        <li class="menu__item">
+                            <button class="btn-reset menu__btn menu__btn--favorites"></button>
+                        </li>
+                        <li class="menu__item">
+                            <button class="btn-reset menu__btn menu__btn--cart"></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>         
+        </div>
+        <nav class="header__nav nav">
+            <div class="container">
+                <ul class="nav__list list-reset flex">
+                    <li class="nav__item">
+                        <div class="catalog">
+                            <button class="btn-reset catalog__btn">Каталог</button>
+                            <div class="catalog__menu">
+                                <div class="container">
+                                    <ul class="list-reset">
+                                        <li>Меню каталога</li>
+                                        <li>Меню каталога</li>
+                                        <li>Меню каталога</li>
+                                        <li>Меню каталога</li>
+                                    </ul>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link nav__link--health">Здоровье</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link nav__link--beauty">Красота</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link nav__link--hygiene">Гигиена</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link nav__link--home">Все для дома</a>
+                    </li>
+                </ul>
+            </div>
+          
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="breadcrumb">
+            <div class="container">
+                <div class="breadcrumb__container flex">
+                    <div class="breadcrumb__top flex">
+                        <a href="" class="breadcrumb__item breadcrumb__item--home">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.7071 2.29289C10.3166 1.90237 9.68342 1.90237 9.29289 2.29289L2.29289 9.29289C1.90237 9.68342 1.90237 10.3166 2.29289 10.7071C2.68342 11.0976 3.31658 11.0976 3.70711 10.7071L4 10.4142V17C4 17.5523 4.44772 18 5 18H7C7.55228 18 8 17.5523 8 17V15C8 14.4477 8.44772 14 9 14H11C11.5523 14 12 14.4477 12 15V17C12 17.5523 12.4477 18 13 18H15C15.5523 18 16 17.5523 16 17V10.4142L16.2929 10.7071C16.6834 11.0976 17.3166 11.0976 17.7071 10.7071C18.0976 10.3166 18.0976 9.68342 17.7071 9.29289L10.7071 2.29289Z"
+                                    fill="#D9D9D9" />
+                            </svg>
+                        </a>
+                        <a href="" class="breadcrumb__item">Категория</a>
+                        <a href="" class="breadcrumb__item">Здоровье</a>
+                        <span class="breadcrumb__item breadcrumb__item--active">Dermаlogiсa PreCleanse - гидрофильное
+                            очищающее масло 150мл</span>
+                    </div>
+                    <div class="breadcrumb__bottom flex">
+                        <a href="" class="breadcrumb__btn btn-blue">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.5 10L2.5 10" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M6.66667 14.1667L2.5 10L6.66667 5.83337" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            Назад</a>
+                        <h1 class="title">Dermаlogiсa PreCleanse - гидрофильное очищающее масло 150мл</h1>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="product section">
+            <div class="container">
+                <div class="product__container">
+                    <div class="product__photos">
+                        <div thumbsSlider="" class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/product-thumb.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product-thumb.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product-thumb.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product-thumb.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product-thumb.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product-thumb.webp" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/product.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product.webp" />
+                                </div>
+                                  <div class="swiper-slide">
+                                    <img src="img/product.webp" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product__info flex">
+                        <div class="flex info">
+                            <div class="flex info__left">
+                                <div class="product__tags">
+                                    <span class="product__tag tag">2 +1</span>
+                                    <span class="product__tag tag">Товар недели</span>
+                                </div>
+                                <div class="product__score flex">
+                                    <div class="product__mark flex">
+                                        <img src="img/star-orange.svg" alt="">
+                                        <img src="img/star-orange.svg" alt="">
+                                        <img src="img/star-orange.svg" alt="">
+                                        <img src="img/star-orange.svg" alt="">
+                                        <img src="img/star-grey.svg" alt="">
+                                    </div>
+                                    <span class="product__reviews">345 отзывов</span>
+                                </div>
+                                <button class="btn-reset product__share"></button>
+                            </div>
+                            <span class="product__code">Код товара: 12332211231ААВ</span>
+                        </div>
+                        <div>
+                            <p class="product__subtitle">Описание</p>
+                            <p class="product__desc">Мощный коктейль из 12 аминокислот (лейцин, аргинин, аспарагиновая
+                                кислота, глицин, аланин, серин, валин, пролин, треонин, изолейцин, гистидин,
+                                фенилаланин)
+                                повышает эластичность, обеспечивает увлажняющий эффект, наполняет клетки кожи энергией.
+                            </p>
+                            <a class="product__link" href="">К описанию</a>
+                        </div>
+                        <div class="price">
+                            <div class="price__block">
+                                <span class="product__price">12 600 ₽</span>
+                                <span class="product__price product__price--old">14 000 ₽</span>
+                            </div>
+                            <span class="product__preprice">Предварительная цена доступна после авторизации</span>
+                        </div>
+                        <div class="product__btns">
+                            <button class="btn-reset product__btn product__btn--favorites btn-purple">
+                                Добавить в избранное
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.7304 12.4386C13.8303 13.3387 12.6846 14.4162 11.2898 15.6729C11.2895 15.6731 11.2892 15.6734 11.289 15.6737L10.75 16.1569L10.211 15.6737C10.2107 15.6734 10.2104 15.6731 10.2101 15.6729C8.81542 14.4162 7.66967 13.3387 6.7696 12.4386C5.87419 11.5432 5.18088 10.758 4.67773 10.0807C4.17381 9.40232 3.85434 8.82138 3.68276 8.33433C3.50454 7.82842 3.41666 7.31569 3.41666 6.79159C3.41666 5.73502 3.75997 4.90415 4.43626 4.22786C5.11256 3.55157 5.94342 3.20825 6.99999 3.20825C7.57601 3.20825 8.11875 3.32897 8.63855 3.57228C9.15991 3.81632 9.60758 4.15828 9.98805 4.6059L10.75 5.5023L11.5119 4.6059C11.8924 4.15828 12.3401 3.81632 12.8614 3.57228C13.3812 3.32897 13.924 3.20825 14.5 3.20825C15.5566 3.20825 16.3874 3.55157 17.0637 4.22786C17.74 4.90415 18.0833 5.73502 18.0833 6.79159C18.0833 7.31569 17.9954 7.82842 17.8172 8.33433C17.6456 8.82138 17.3262 9.40232 16.8222 10.0807C16.3191 10.758 15.6258 11.5432 14.7304 12.4386Z"
+                                        fill="white" stroke="white" stroke-width="2" />
+                                </svg>
+                            </button>
+                            <button class="btn-reset product__btn product__btn--cart btn-blue">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="tabs section">
+            <div class="container">
+                <ul class="tabs__list list-reset flex">
+                    <li class="tabs__item">
+                        <a class="tabs__link tabs__link--active" href="" data-tab="desc">Описание</a>
+                    </li>
+                    <li class="tabs__item">
+                        <a class="tabs__link" href="" data-tab="composition">Состав</a>
+                    </li>
+                    <li class="tabs__item">
+                        <a class="tabs__link" href="" data-tab="method">Способ применения</a>
+                    </li>
+                    <li class="tabs__item">
+                        <a class="tabs__link" href="" data-tab="faq">Вопросы и ответы</a>
+                    </li>
+                </ul>
+                <div class="tabs__content content">
+                    <div data-content="desc" class="content__block content__block--active">
+                        <p class="content__title">Описание</p>
+                        <p class="content__text">Лёгкое масло из комбинации масел Оливы, орехов Кукуйи и Абрикоса
+                            удаляет с поверхности кожи жирорастворимые загрязнения и средства макияжа. Это первый этап
+                            Двойного очищения Dermalogica. Precleanse полностью растворяет себум, солнцезащитные
+                            фильтры, водостойкую косметику, загрязнения из окружающей среды, которые скапливаются на
+                            поверхности кожи, и позволяет назначенному Вам очистителю для второго этапа очищения более
+                            тщательно воздействовать на кожу и получить результаты профессионального очищения.
+                            Профессиональный и розничный продукт.</p>
+                        <p class="content__text">Производитель соблюдает нормы и стандарты законодательства стран ЕС по
+                            защите окружающей среды, поэтому ламинат производится исключительно из натуральной
+                            древесины, которая поставляется из специально отведенных к вырубке участков. Таким образом,
+                            экоприверженность и соответствие европейским требованиям безопасности в эксплуатации
+                            подтверждены определенными сертификатами.</p>
+                    </div>
+                    <div data-content="composition" class="content__block">
+                        <p class="content__title">Состав</p>
+                        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                            reprehenderit minus minima provident ipsum, excepturi obcaecati similique accusamus, iste,
+                            tempore nostrum qui deserunt facere? Libero, nemo. Ea dolor repudiandae delectus.</p>
+                    </div>
+                    <div data-content="method" class="content__block">
+                        <p class="content__title">Способ применения</p>
+                        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                            reprehenderit minus minima provident ipsum, excepturi obcaecati similique accusamus, iste,
+                            tempore nostrum qui deserunt facere? Libero, nemo. Ea dolor repudiandae delectus.</p>
+                    </div>
+                    <div data-content="faq" class="content__block">
+                        <p class="content__title">Вопросы и ответы</p>
+                        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                            reprehenderit minus minima provident ipsum, excepturi obcaecati similique accusamus, iste,
+                            tempore nostrum qui deserunt facere? Libero, nemo. Ea dolor repudiandae delectus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recommend section">
+            <div class="container">
+                <div class="recommend__top">
+                    <h2 class="recommend__title">Рекомендуем</h2>
+                    <a href="" class="recommend__btn btn-blue">Все товары</a>
+                </div>
+                <ul class="recommend__list list-reset">
+                    <li class="recommend__item">
+                        <article class="recommend__card card">
+                            <div class="card__top">
+                                <img class="card__img" src="img/recommend-1.webp" alt="">
+                                <button class="btn-reset card__favorites">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 20.9999L10.55 19.6999C8.86667 18.1832 7.475 16.8749 6.375 15.7749C5.275 14.6749 4.4 13.6874 3.75 12.8124C3.1 11.9374 2.64583 11.1332 2.3875 10.3999C2.12917 9.66657 2 8.91657 2 8.1499C2 6.58324 2.525 5.2749 3.575 4.2249C4.625 3.1749 5.93333 2.6499 7.5 2.6499C8.36667 2.6499 9.19167 2.83324 9.975 3.1999C10.7583 3.56657 11.4333 4.08324 12 4.7499C12.5667 4.08324 13.2417 3.56657 14.025 3.1999C14.8083 2.83324 15.6333 2.6499 16.5 2.6499C18.0667 2.6499 19.375 3.1749 20.425 4.2249C21.475 5.2749 22 6.58324 22 8.1499C22 8.91657 21.8708 9.66657 21.6125 10.3999C21.3542 11.1332 20.9 11.9374 20.25 12.8124C19.6 13.6874 18.725 14.6749 17.625 15.7749C16.525 16.8749 15.1333 18.1832 13.45 19.6999L12 20.9999Z"
+                                            fill="white" />
+                                        <path
+                                            d="M12 20.9999L10.55 19.6999C8.86667 18.1832 7.475 16.8749 6.375 15.7749C5.275 14.6749 4.4 13.6874 3.75 12.8124C3.1 11.9374 2.64583 11.1332 2.3875 10.3999C2.12917 9.66657 2 8.91657 2 8.1499C2 6.58324 2.525 5.2749 3.575 4.2249C4.625 3.1749 5.93333 2.6499 7.5 2.6499C8.36667 2.6499 9.19167 2.83324 9.975 3.1999C10.7583 3.56657 11.4333 4.08324 12 4.7499C12.5667 4.08324 13.2417 3.56657 14.025 3.1999C14.8083 2.83324 15.6333 2.6499 16.5 2.6499C18.0667 2.6499 19.375 3.1749 20.425 4.2249C21.475 5.2749 22 6.58324 22 8.1499C22 8.91657 21.8708 9.66657 21.6125 10.3999C21.3542 11.1332 20.9 11.9374 20.25 12.8124C19.6 13.6874 18.725 14.6749 17.625 15.7749C16.525 16.8749 15.1333 18.1832 13.45 19.6999L12 20.9999ZM12 18.2999C13.6 16.8666 14.9167 15.6374 15.95 14.6124C16.9833 13.5874 17.8 12.6957 18.4 11.9374C19 11.1791 19.4167 10.5041 19.65 9.9124C19.8833 9.32074 20 8.73324 20 8.1499C20 7.1499 19.6667 6.31657 19 5.6499C18.3333 4.98324 17.5 4.6499 16.5 4.6499C15.7167 4.6499 14.9917 4.87074 14.325 5.3124C13.6583 5.75407 13.2 6.31657 12.95 6.9999H11.05C10.8 6.31657 10.3417 5.75407 9.675 5.3124C9.00833 4.87074 8.28333 4.6499 7.5 4.6499C6.5 4.6499 5.66667 4.98324 5 5.6499C4.33333 6.31657 4 7.1499 4 8.1499C4 8.73324 4.11667 9.32074 4.35 9.9124C4.58333 10.5041 5 11.1791 5.6 11.9374C6.2 12.6957 7.01667 13.5874 8.05 14.6124C9.08333 15.6374 10.4 16.8666 12 18.2999Z"
+                                            fill="#7D90DC" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <h3 class="card__title">Витамин Д Д3 D D3 капсулы 2000 МЕ 90 шт, БАД для иммунитета,
+                                витаминный комплекс для здоровья костей и зубов для женщин, мужчин Una Tuna (Уна Туна)
+                            </h3>
+                            <div class="flex card__box">
+                                <div class="card__bottom">
+                                    <span class="card__price card__price--discounted">869 ₽</span>
+                                    <span class="card__price card__price--old">1269 ₽</span>
+                                    <span class="card__discount">-30%</span>
+                                </div>
+                                <button class="btn-reset card__cart btn-blue">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_474_328)">
+                                            <path
+                                                d="M10.3667 8.66668C10.8667 8.66668 11.3067 8.39334 11.5333 7.98001L13.92 3.65334C14.1667 3.21334 13.8467 2.66668 13.34 2.66668H3.47332L2.84666 1.33334H0.666656V2.66668H1.99999L4.39999 7.72668L3.49999 9.35334C3.01332 10.2467 3.65332 11.3333 4.66666 11.3333H12.6667V10H4.66666L5.39999 8.66668H10.3667ZM4.10666 4.00001H12.2067L10.3667 7.33334H5.68666L4.10666 4.00001ZM4.66666 12C3.93332 12 3.33999 12.6 3.33999 13.3333C3.33999 14.0667 3.93332 14.6667 4.66666 14.6667C5.39999 14.6667 5.99999 14.0667 5.99999 13.3333C5.99999 12.6 5.39999 12 4.66666 12ZM11.3333 12C10.6 12 10.0067 12.6 10.0067 13.3333C10.0067 14.0667 10.6 14.6667 11.3333 14.6667C12.0667 14.6667 12.6667 14.0667 12.6667 13.3333C12.6667 12.6 12.0667 12 11.3333 12Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_474_328">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="recommend__item">
+                        <article class="recommend__card card">
+                            <div class="card__top">
+                                <img class="card__img" src="img/recommend-2.webp" alt="">
+                                <button class="btn-reset card__favorites">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 20.9999L10.55 19.6999C8.86667 18.1832 7.475 16.8749 6.375 15.7749C5.275 14.6749 4.4 13.6874 3.75 12.8124C3.1 11.9374 2.64583 11.1332 2.3875 10.3999C2.12917 9.66657 2 8.91657 2 8.1499C2 6.58324 2.525 5.2749 3.575 4.2249C4.625 3.1749 5.93333 2.6499 7.5 2.6499C8.36667 2.6499 9.19167 2.83324 9.975 3.1999C10.7583 3.56657 11.4333 4.08324 12 4.7499C12.5667 4.08324 13.2417 3.56657 14.025 3.1999C14.8083 2.83324 15.6333 2.6499 16.5 2.6499C18.0667 2.6499 19.375 3.1749 20.425 4.2249C21.475 5.2749 22 6.58324 22 8.1499C22 8.91657 21.8708 9.66657 21.6125 10.3999C21.3542 11.1332 20.9 11.9374 20.25 12.8124C19.6 13.6874 18.725 14.6749 17.625 15.7749C16.525 16.8749 15.1333 18.1832 13.45 19.6999L12 20.9999Z"
+                                            fill="white" />
+                                        <path
+                                            d="M12 20.9999L10.55 19.6999C8.86667 18.1832 7.475 16.8749 6.375 15.7749C5.275 14.6749 4.4 13.6874 3.75 12.8124C3.1 11.9374 2.64583 11.1332 2.3875 10.3999C2.12917 9.66657 2 8.91657 2 8.1499C2 6.58324 2.525 5.2749 3.575 4.2249C4.625 3.1749 5.93333 2.6499 7.5 2.6499C8.36667 2.6499 9.19167 2.83324 9.975 3.1999C10.7583 3.56657 11.4333 4.08324 12 4.7499C12.5667 4.08324 13.2417 3.56657 14.025 3.1999C14.8083 2.83324 15.6333 2.6499 16.5 2.6499C18.0667 2.6499 19.375 3.1749 20.425 4.2249C21.475 5.2749 22 6.58324 22 8.1499C22 8.91657 21.8708 9.66657 21.6125 10.3999C21.3542 11.1332 20.9 11.9374 20.25 12.8124C19.6 13.6874 18.725 14.6749 17.625 15.7749C16.525 16.8749 15.1333 18.1832 13.45 19.6999L12 20.9999ZM12 18.2999C13.6 16.8666 14.9167 15.6374 15.95 14.6124C16.9833 13.5874 17.8 12.6957 18.4 11.9374C19 11.1791 19.4167 10.5041 19.65 9.9124C19.8833 9.32074 20 8.73324 20 8.1499C20 7.1499 19.6667 6.31657 19 5.6499C18.3333 4.98324 17.5 4.6499 16.5 4.6499C15.7167 4.6499 14.9917 4.87074 14.325 5.3124C13.6583 5.75407 13.2 6.31657 12.95 6.9999H11.05C10.8 6.31657 10.3417 5.75407 9.675 5.3124C9.00833 4.87074 8.28333 4.6499 7.5 4.6499C6.5 4.6499 5.66667 4.98324 5 5.6499C4.33333 6.31657 4 7.1499 4 8.1499C4 8.73324 4.11667 9.32074 4.35 9.9124C4.58333 10.5041 5 11.1791 5.6 11.9374C6.2 12.6957 7.01667 13.5874 8.05 14.6124C9.08333 15.6374 10.4 16.8666 12 18.2999Z"
+                                            fill="#7D90DC" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <h3 class="card__title">Витамин Д Д3 D D3 капсулы 2000 МЕ 90 шт, БАД для иммунитета,
+                                витаминный комплекс для здоровья костей и зубов для женщин, мужчин Una Tuna (Уна Туна)
+                            </h3>
+                            <div class="flex card__box">
+                                <div class="card__bottom">
+                                    <span class="card__price">869 ₽</span>
+                                </div>
+                                <button class="btn-reset card__cart btn-blue">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_474_328)">
+                                            <path
+                                                d="M10.3667 8.66668C10.8667 8.66668 11.3067 8.39334 11.5333 7.98001L13.92 3.65334C14.1667 3.21334 13.8467 2.66668 13.34 2.66668H3.47332L2.84666 1.33334H0.666656V2.66668H1.99999L4.39999 7.72668L3.49999 9.35334C3.01332 10.2467 3.65332 11.3333 4.66666 11.3333H12.6667V10H4.66666L5.39999 8.66668H10.3667ZM4.10666 4.00001H12.2067L10.3667 7.33334H5.68666L4.10666 4.00001ZM4.66666 12C3.93332 12 3.33999 12.6 3.33999 13.3333C3.33999 14.0667 3.93332 14.6667 4.66666 14.6667C5.39999 14.6667 5.99999 14.0667 5.99999 13.3333C5.99999 12.6 5.39999 12 4.66666 12ZM11.3333 12C10.6 12 10.0067 12.6 10.0067 13.3333C10.0067 14.0667 10.6 14.6667 11.3333 14.6667C12.0667 14.6667 12.6667 14.0667 12.6667 13.3333C12.6667 12.6 12.0667 12 11.3333 12Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_474_328">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="recommend__item">
+                        <article class="recommend__card card">
+                            <div class="card__top">
+                                <img class="card__img" src="img/recommend-3.webp" alt="">
+                                <div class="card__tags">
+                                    <span class="card__tag tag">NEW</span>
+                                    <span class="card__tag tag">2 +1</span>
+                                    <span class="card__tag tag">Товар недели</span>
+                                </div>
+                                <button class="btn-reset card__favorites">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 20.9999L10.55 19.6999C8.86667 18.1832 7.475 16.8749 6.375 15.7749C5.275 14.6749 4.4 13.6874 3.75 12.8124C3.1 11.9374 2.64583 11.1332 2.3875 10.3999C2.12917 9.66657 2 8.91657 2 8.1499C2 6.58324 2.525 5.2749 3.575 4.2249C4.625 3.1749 5.93333 2.6499 7.5 2.6499C8.36667 2.6499 9.19167 2.83324 9.975 3.1999C10.7583 3.56657 11.4333 4.08324 12 4.7499C12.5667 4.08324 13.2417 3.56657 14.025 3.1999C14.8083 2.83324 15.6333 2.6499 16.5 2.6499C18.0667 2.6499 19.375 3.1749 20.425 4.2249C21.475 5.2749 22 6.58324 22 8.1499C22 8.91657 21.8708 9.66657 21.6125 10.3999C21.3542 11.1332 20.9 11.9374 20.25 12.8124C19.6 13.6874 18.725 14.6749 17.625 15.7749C16.525 16.8749 15.1333 18.1832 13.45 19.6999L12 20.9999Z"
+                                            fill="white" />
+                                        <path
+                                            d="M12 20.9999L10.55 19.6999C8.86667 18.1832 7.475 16.8749 6.375 15.7749C5.275 14.6749 4.4 13.6874 3.75 12.8124C3.1 11.9374 2.64583 11.1332 2.3875 10.3999C2.12917 9.66657 2 8.91657 2 8.1499C2 6.58324 2.525 5.2749 3.575 4.2249C4.625 3.1749 5.93333 2.6499 7.5 2.6499C8.36667 2.6499 9.19167 2.83324 9.975 3.1999C10.7583 3.56657 11.4333 4.08324 12 4.7499C12.5667 4.08324 13.2417 3.56657 14.025 3.1999C14.8083 2.83324 15.6333 2.6499 16.5 2.6499C18.0667 2.6499 19.375 3.1749 20.425 4.2249C21.475 5.2749 22 6.58324 22 8.1499C22 8.91657 21.8708 9.66657 21.6125 10.3999C21.3542 11.1332 20.9 11.9374 20.25 12.8124C19.6 13.6874 18.725 14.6749 17.625 15.7749C16.525 16.8749 15.1333 18.1832 13.45 19.6999L12 20.9999ZM12 18.2999C13.6 16.8666 14.9167 15.6374 15.95 14.6124C16.9833 13.5874 17.8 12.6957 18.4 11.9374C19 11.1791 19.4167 10.5041 19.65 9.9124C19.8833 9.32074 20 8.73324 20 8.1499C20 7.1499 19.6667 6.31657 19 5.6499C18.3333 4.98324 17.5 4.6499 16.5 4.6499C15.7167 4.6499 14.9917 4.87074 14.325 5.3124C13.6583 5.75407 13.2 6.31657 12.95 6.9999H11.05C10.8 6.31657 10.3417 5.75407 9.675 5.3124C9.00833 4.87074 8.28333 4.6499 7.5 4.6499C6.5 4.6499 5.66667 4.98324 5 5.6499C4.33333 6.31657 4 7.1499 4 8.1499C4 8.73324 4.11667 9.32074 4.35 9.9124C4.58333 10.5041 5 11.1791 5.6 11.9374C6.2 12.6957 7.01667 13.5874 8.05 14.6124C9.08333 15.6374 10.4 16.8666 12 18.2999Z"
+                                            fill="#7D90DC" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <h3 class="card__title">Витамин Д 3 5000 ME 120 капсул</h3>
+                            <div class="flex card__box">
+                                <div class="card__bottom">
+                                    <span class="card__price card__price--discounted">869 ₽</span>
+                                    <span class="card__price card__price--old">1269 ₽</span>
+                                    <span class="card__discount">-30%</span>
+                                </div>
+                                <button class="btn-reset card__cart btn-blue">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_474_328)">
+                                            <path
+                                                d="M10.3667 8.66668C10.8667 8.66668 11.3067 8.39334 11.5333 7.98001L13.92 3.65334C14.1667 3.21334 13.8467 2.66668 13.34 2.66668H3.47332L2.84666 1.33334H0.666656V2.66668H1.99999L4.39999 7.72668L3.49999 9.35334C3.01332 10.2467 3.65332 11.3333 4.66666 11.3333H12.6667V10H4.66666L5.39999 8.66668H10.3667ZM4.10666 4.00001H12.2067L10.3667 7.33334H5.68666L4.10666 4.00001ZM4.66666 12C3.93332 12 3.33999 12.6 3.33999 13.3333C3.33999 14.0667 3.93332 14.6667 4.66666 14.6667C5.39999 14.6667 5.99999 14.0667 5.99999 13.3333C5.99999 12.6 5.39999 12 4.66666 12ZM11.3333 12C10.6 12 10.0067 12.6 10.0067 13.3333C10.0067 14.0667 10.6 14.6667 11.3333 14.6667C12.0667 14.6667 12.6667 14.0667 12.6667 13.3333C12.6667 12.6 12.0667 12 11.3333 12Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_474_328">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="recommend__item">
+                        <article class="recommend__card card">
+                            <div class="card__top">
+                                <img class="card__img" src="img/recommend-4.webp" alt="">
+                                <button class="btn-reset card__favorites">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 20.9999L10.55 19.6999C8.86667 18.1832 7.475 16.8749 6.375 15.7749C5.275 14.6749 4.4 13.6874 3.75 12.8124C3.1 11.9374 2.64583 11.1332 2.3875 10.3999C2.12917 9.66657 2 8.91657 2 8.1499C2 6.58324 2.525 5.2749 3.575 4.2249C4.625 3.1749 5.93333 2.6499 7.5 2.6499C8.36667 2.6499 9.19167 2.83324 9.975 3.1999C10.7583 3.56657 11.4333 4.08324 12 4.7499C12.5667 4.08324 13.2417 3.56657 14.025 3.1999C14.8083 2.83324 15.6333 2.6499 16.5 2.6499C18.0667 2.6499 19.375 3.1749 20.425 4.2249C21.475 5.2749 22 6.58324 22 8.1499C22 8.91657 21.8708 9.66657 21.6125 10.3999C21.3542 11.1332 20.9 11.9374 20.25 12.8124C19.6 13.6874 18.725 14.6749 17.625 15.7749C16.525 16.8749 15.1333 18.1832 13.45 19.6999L12 20.9999Z"
+                                            fill="white" />
+                                        <path
+                                            d="M12 20.9999L10.55 19.6999C8.86667 18.1832 7.475 16.8749 6.375 15.7749C5.275 14.6749 4.4 13.6874 3.75 12.8124C3.1 11.9374 2.64583 11.1332 2.3875 10.3999C2.12917 9.66657 2 8.91657 2 8.1499C2 6.58324 2.525 5.2749 3.575 4.2249C4.625 3.1749 5.93333 2.6499 7.5 2.6499C8.36667 2.6499 9.19167 2.83324 9.975 3.1999C10.7583 3.56657 11.4333 4.08324 12 4.7499C12.5667 4.08324 13.2417 3.56657 14.025 3.1999C14.8083 2.83324 15.6333 2.6499 16.5 2.6499C18.0667 2.6499 19.375 3.1749 20.425 4.2249C21.475 5.2749 22 6.58324 22 8.1499C22 8.91657 21.8708 9.66657 21.6125 10.3999C21.3542 11.1332 20.9 11.9374 20.25 12.8124C19.6 13.6874 18.725 14.6749 17.625 15.7749C16.525 16.8749 15.1333 18.1832 13.45 19.6999L12 20.9999ZM12 18.2999C13.6 16.8666 14.9167 15.6374 15.95 14.6124C16.9833 13.5874 17.8 12.6957 18.4 11.9374C19 11.1791 19.4167 10.5041 19.65 9.9124C19.8833 9.32074 20 8.73324 20 8.1499C20 7.1499 19.6667 6.31657 19 5.6499C18.3333 4.98324 17.5 4.6499 16.5 4.6499C15.7167 4.6499 14.9917 4.87074 14.325 5.3124C13.6583 5.75407 13.2 6.31657 12.95 6.9999H11.05C10.8 6.31657 10.3417 5.75407 9.675 5.3124C9.00833 4.87074 8.28333 4.6499 7.5 4.6499C6.5 4.6499 5.66667 4.98324 5 5.6499C4.33333 6.31657 4 7.1499 4 8.1499C4 8.73324 4.11667 9.32074 4.35 9.9124C4.58333 10.5041 5 11.1791 5.6 11.9374C6.2 12.6957 7.01667 13.5874 8.05 14.6124C9.08333 15.6374 10.4 16.8666 12 18.2999Z"
+                                            fill="#7D90DC" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <h3 class="card__title">Витамин Д Д3 D D3 капсулы 2000 МЕ 90 шт, БАД для иммунитета,
+                                витаминный комплекс для здоровья костей и зубов для женщин, мужчин Una Tuna (Уна Туна)
+                            </h3>
+                            <div class="flex card__box">
+                                <div class="card__bottom">
+                                    <span class="card__price">869 ₽</span>
+                                </div>
+                                <button class="btn-reset card__cart btn-blue">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_474_328)">
+                                            <path
+                                                d="M10.3667 8.66668C10.8667 8.66668 11.3067 8.39334 11.5333 7.98001L13.92 3.65334C14.1667 3.21334 13.8467 2.66668 13.34 2.66668H3.47332L2.84666 1.33334H0.666656V2.66668H1.99999L4.39999 7.72668L3.49999 9.35334C3.01332 10.2467 3.65332 11.3333 4.66666 11.3333H12.6667V10H4.66666L5.39999 8.66668H10.3667ZM4.10666 4.00001H12.2067L10.3667 7.33334H5.68666L4.10666 4.00001ZM4.66666 12C3.93332 12 3.33999 12.6 3.33999 13.3333C3.33999 14.0667 3.93332 14.6667 4.66666 14.6667C5.39999 14.6667 5.99999 14.0667 5.99999 13.3333C5.99999 12.6 5.39999 12 4.66666 12ZM11.3333 12C10.6 12 10.0067 12.6 10.0067 13.3333C10.0067 14.0667 10.6 14.6667 11.3333 14.6667C12.0667 14.6667 12.6667 14.0667 12.6667 13.3333C12.6667 12.6 12.0667 12 11.3333 12Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_474_328">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="mailing">
+            <div class="container">
+                <div class="mailing__container">
+                    <div>
+                        <h2 class="mailing__title">Рассылка о здоровье и красоте</h2>
+                        <h3 class="mailing__subtitle">Подпишись и узнавай о здоровом питании, пользе витаминов и
+                            экологии</h3>
+                    </div>
+                    <form class="mailing__form form">
+                        <div class="form__top">
+                            <input class="form__input" type="text" placeholder="Введите адрес эл. почты">
+                            <button class="btn-reset form__btn" type="submit">Подписаться</button>
+                        </div>
+                        <label class="checkbox">
+                            <input class="checkbox__input" type="checkbox">
+                            <span class="checkbox__icon"></span>
+                            <span class="checkbox__text">Принимаю условия <a class="checkbox__text--link" href="">политики конфиденциальности</a> и даю разрешение на обработку
+                                персональных данных в соответствии <a class="checkbox__text--link" href="">с согласием на обработку персональных данных.</a></span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__menu">
+                <div>
+                    <p class="footer__title">Здоровье</p>
+                    <ul class="footer__list list-reset">
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="footer__title">Красота</p>
+                    <ul class="footer__list list-reset">
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="footer__title">Дом</p>
+                    <ul class="footer__list list-reset">
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="footer__title">Наборы</p>
+                    <ul class="footer__list list-reset">
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="footer__title">О компании</p>
+                    <ul class="footer__list list-reset">
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="">Пункт меню</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__contacts flex">
+                <ul class="list-reset socials flex">
+                    <li class="socials__item">
+                        <a class="socials__link" href="">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="16" fill="#AA767C" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.85113 21.6455C8.53018 21.5526 8.23735 21.3874 7.99733 21.1639C7.75731 20.9403 7.57715 20.665 7.47205 20.361C6.87148 18.7899 6.69353 12.2295 7.85018 10.9345C8.23514 10.5132 8.77864 10.2538 9.36272 10.2126C12.4657 9.89414 22.0525 9.93661 23.1535 10.3188C23.4632 10.4147 23.7461 10.5762 23.9811 10.7913C24.2161 11.0064 24.397 11.2695 24.5104 11.5608C25.1665 13.1849 25.1888 19.0871 24.4214 20.6476C24.2178 21.0538 23.877 21.3828 23.4538 21.5818C22.2972 22.1338 10.3859 22.1231 8.85113 21.6455ZM13.778 18.567L19.3388 15.807L13.778 13.0257V18.567Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="">
+                            <svg width="32" height="34" viewBox="0 0 32 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="33.0323" rx="16" fill="#AA767C" />
+                                <path
+                                    d="M16.8039 21.9998C10.654 21.9998 7.14622 17.8707 7.00006 10.9998H10.0806C10.1818 16.0428 12.4529 18.179 14.2518 18.6194V10.9998H17.1525V15.3492C18.9289 15.162 20.7952 13.18 21.4248 10.9998H24.3255C24.0882 12.1305 23.6153 13.2011 22.9363 14.1446C22.2573 15.0881 21.3867 15.8843 20.3792 16.4833C21.5039 17.0306 22.4972 17.8053 23.2937 18.7562C24.0903 19.7071 24.6718 20.8126 25.0001 21.9998H21.8071C21.5124 20.9686 20.9136 20.0456 20.0856 19.3463C19.2576 18.647 18.2372 18.2027 17.1525 18.0689V21.9998H16.8039Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="16" fill="#AA767C" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.5429 17.5429C16.2857 18.84 16.2 20.4571 16.0857 24C19.3886 24 21.6686 23.9886 22.8457 22.8457C23.9886 21.6686 24 19.28 24 16.0857C20.4571 16.2 18.84 16.2857 17.5429 17.5429ZM15.9143 24C12.6114 24 10.3314 23.9886 9.15429 22.8457C8.01143 21.6686 8 19.28 8 16.0857C11.5429 16.2 13.16 16.2857 14.4571 17.5429C15.7143 18.84 15.8 20.4571 15.9143 24ZM14.4571 14.4571C13.16 15.7143 11.5429 15.8 8 15.9143C8 12.72 8.01143 10.3314 9.15429 9.15429C10.3314 8.01143 12.6171 8 15.9143 8C15.8 11.5429 15.7143 13.16 14.4571 14.4571ZM16.0857 8C16.1943 11.5429 16.2857 13.16 17.5429 14.4571C18.84 15.7143 20.4571 15.8 24 15.9143C24 12.72 23.9886 10.3314 22.8457 9.15429C21.6686 8.01143 19.3886 8 16.0857 8Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="16" fill="#AA767C" />
+                                <path
+                                    d="M22.4 10.0819L19.9956 22.6339C19.9956 22.6339 19.6592 23.5042 18.7351 23.0868L13.1876 18.6822L13.1619 18.6692C13.9112 17.9724 19.7219 12.5622 19.9758 12.317C20.369 11.9372 20.1249 11.7111 19.6684 11.998L11.0854 17.6425L7.77406 16.4887C7.77406 16.4887 7.25296 16.2968 7.20283 15.8794C7.15203 15.4613 7.79121 15.2352 7.79121 15.2352L21.2905 9.75126C21.2905 9.75126 22.4 9.24644 22.4 10.0819Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="16" fill="#AA767C" />
+                                <path
+                                    d="M24.4481 17.7695C24.5032 17.3279 24.5584 16.9416 24.5584 16.5C24.5584 12.0844 20.9708 8.44156 16.5 8.44156C16.0584 8.44156 15.6721 8.49675 15.2305 8.55195C14.513 8.16558 13.7403 8 12.9675 8C10.2078 8 8 10.2078 8 12.9675C8 13.7403 8.16558 14.513 8.55195 15.2305C8.49675 15.6721 8.44156 16.0584 8.44156 16.5C8.44156 20.9156 12.0292 24.5584 16.5 24.5584C16.9416 24.5584 17.3279 24.5032 17.7695 24.4481C18.487 24.7792 19.2597 25 20.0325 25C22.7922 25 25 22.7922 25 20.0325C25 19.2597 24.7792 18.487 24.4481 17.7695ZM19.8669 19.4253C19.7013 19.7565 19.4805 20.0325 19.1494 20.2532C18.8182 20.474 18.487 20.6396 18.0455 20.75C17.6039 20.8604 17.1071 20.9156 16.5552 20.9156C15.3961 20.9156 14.4578 20.6396 13.7955 20.1429C13.4091 19.8117 13.0779 19.4253 12.9123 18.9286C12.6916 18.487 13.0779 17.9351 13.6299 17.9351H13.7955C14.1266 17.9351 14.4578 18.1558 14.5682 18.4318C14.6786 18.7078 14.8442 18.9286 15.0649 19.0942C15.3961 19.3701 15.8929 19.4805 16.5 19.4805C17.0519 19.4805 17.4935 19.3701 17.8247 19.2045C18.1558 19.039 18.3214 18.7078 18.3214 18.3766C18.3214 18.211 18.2662 18.1006 18.211 17.9903C18.1558 17.8799 17.9903 17.7695 17.8799 17.7143C17.7143 17.6039 17.5487 17.5487 17.2727 17.4935C17.0519 17.4383 16.776 17.3279 16.4448 17.2727L16.1136 17.1623C15.7273 17.0519 15.2857 16.9416 14.9545 16.8312C14.5682 16.7208 14.237 16.5552 13.961 16.3896C13.6851 16.224 13.4643 16.0032 13.2987 15.6721C13.1331 15.3961 13.0779 15.0097 13.0779 14.5682C13.0779 14.1266 13.1883 13.7403 13.3539 13.4091C13.5195 13.0779 13.7955 12.8019 14.0714 12.6364C14.4026 12.4156 14.7338 12.25 15.1753 12.1948C15.5617 12.0844 16.0032 12.0292 16.5 12.0292C17.0519 12.0292 17.4935 12.0844 17.9351 12.1948C18.3766 12.3052 18.7078 12.4708 19.039 12.7468C19.3701 12.9675 19.5909 13.2435 19.7565 13.6299C20.0325 14.1266 19.6461 14.789 19.039 14.789H18.8734C18.5422 14.789 18.2662 14.6234 18.1006 14.3474C17.9903 14.1818 17.8799 14.0162 17.7143 13.8506C17.4383 13.6299 16.9968 13.5195 16.5 13.5195C16.0032 13.5195 15.6169 13.6299 15.3409 13.7955C15.0649 13.961 14.9545 14.237 14.9545 14.513C14.9545 14.6786 15.0097 14.789 15.0649 14.8994C15.1201 15.0097 15.2305 15.1201 15.3961 15.1753C15.5617 15.2305 15.7273 15.3409 15.9481 15.3961C16.1688 15.4513 16.4448 15.5065 16.776 15.6169C17.1071 15.6721 17.3831 15.7825 17.7143 15.8377C17.9903 15.8929 18.2662 16.0032 18.5422 16.0584C18.8182 16.1688 19.039 16.2792 19.2597 16.3896C19.4805 16.5 19.6461 16.6656 19.8117 16.8312C19.9773 16.9968 20.0877 17.2175 20.1429 17.4383C20.2532 17.6591 20.2532 17.9903 20.2532 18.3214C20.1429 18.7078 20.0325 19.0942 19.8669 19.4253Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="16" fill="#AA767C" />
+                                <path
+                                    d="M22.2985 9.69247C20.623 8.02282 18.3891 7.09525 16.031 7.09525C11.1287 7.09525 7.15727 11.0529 7.15727 15.9382C7.15727 17.4841 7.59165 19.0301 8.3363 20.3287L7.09521 24.9048L11.8113 23.668C13.1145 24.3482 14.5417 24.7193 16.031 24.7193C20.9333 24.7193 24.9047 20.7616 24.9047 15.8763C24.8427 13.5883 23.9739 11.3621 22.2985 9.69247ZM20.3127 19.0919C20.1266 19.5866 19.2578 20.0814 18.8234 20.1432C18.4511 20.205 17.9547 20.205 17.4582 20.0814C17.148 19.9577 16.7136 19.834 16.2172 19.5866C13.9832 18.6591 12.556 16.4329 12.4319 16.2474C12.3078 16.1237 11.5011 15.0724 11.5011 13.9593C11.5011 12.8462 12.0595 12.3515 12.2457 12.1042C12.4319 11.8568 12.6801 11.8568 12.8662 11.8568C12.9904 11.8568 13.1765 11.8568 13.3006 11.8568C13.4247 11.8568 13.6109 11.795 13.7971 12.2279C13.9832 12.6607 14.4176 13.7738 14.4797 13.8357C14.5417 13.9593 14.5417 14.083 14.4797 14.2067C14.4176 14.3304 14.3555 14.454 14.2314 14.5777C14.1073 14.7014 13.9832 14.8869 13.9212 14.9488C13.7971 15.0724 13.6729 15.1961 13.7971 15.3816C13.9212 15.629 14.3555 16.3092 15.0381 16.9276C15.9069 17.6696 16.5895 17.917 16.8377 18.0407C17.0859 18.1644 17.21 18.1025 17.3341 17.9788C17.4582 17.8552 17.8926 17.3605 18.0167 17.1131C18.1408 16.8657 18.327 16.9276 18.5132 16.9894C18.6993 17.0513 19.8163 17.6078 20.0025 17.7315C20.2507 17.8552 20.3748 17.917 20.4368 17.9788C20.4989 18.1644 20.4989 18.5972 20.3127 19.0919Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="16" fill="#AA767C" />
+                                <path
+                                    d="M21.3193 18.0769C21.768 17.6555 21.8321 17.0535 21.4475 16.4515C21.127 15.9699 20.5501 15.7291 19.9091 15.8495C19.6527 15.9097 19.3963 16.0301 19.1399 16.2107C17.1529 17.4749 14.4608 17.4147 12.4738 16.1505C12.3456 16.0903 12.2174 16.0301 12.0892 15.9699C11.3841 15.6689 10.679 15.7893 10.2945 16.3913C9.84577 16.9933 9.90986 17.6555 10.4867 18.1973C10.6149 18.3177 10.7431 18.3779 10.8072 18.4983L10.8713 18.5585C11.7687 19.2207 12.8584 19.6421 14.2685 19.8227L13.4352 20.6054C12.7302 21.2676 11.961 21.99 11.2559 22.6522C11.0636 22.8328 10.8072 23.1338 10.8072 23.5552C10.8072 24.097 11.1277 24.6388 11.7046 24.8796C11.8969 25 12.0892 25 12.2815 25C12.602 25 12.9866 24.8796 13.2429 24.5786C14.2044 23.6756 14.9736 22.9532 15.7428 22.2308C15.8069 22.1706 15.8069 22.1706 15.8069 22.1706C15.8069 22.1706 15.871 22.1706 15.871 22.2308C16.3837 22.7726 16.9606 23.2542 17.4734 23.796C17.7298 24.0368 17.9862 24.2776 18.2426 24.5184C18.5631 24.8194 18.8195 24.9398 19.204 24.9398C19.7809 25 20.4219 24.6388 20.6783 24.097C20.9347 23.6154 20.8065 23.0134 20.3578 22.6522C19.7168 22.0502 19.0759 21.388 18.3708 20.786L17.2811 19.7625C17.858 19.7023 18.499 19.5819 19.0759 19.3411C20.0373 19.0401 20.7424 18.6187 21.3193 18.0769Z"
+                                    fill="white" />
+                                <path
+                                    d="M15.8069 16.3913C18.5631 16.3913 20.8065 14.3445 20.8065 11.7558C20.8065 10.4916 20.2937 9.28763 19.3322 8.38462C18.3708 7.48161 17.1529 7 15.871 7C13.1148 7 10.9354 9.10702 10.8713 11.6354C10.8713 12.8997 11.3841 14.0435 12.3456 14.9465C13.243 15.9097 14.4608 16.3913 15.8069 16.3913ZM14.3967 10.3712C14.7813 10.01 15.2941 9.82943 15.8069 9.82943C16.9606 9.82943 17.7939 10.6722 17.7939 11.6957C17.7939 12.7793 16.8965 13.5619 15.8069 13.5619C14.6531 13.5619 13.8198 12.7191 13.8198 11.6957C13.8198 11.214 14.0121 10.7324 14.3967 10.3712Z"
+                                    fill="white" />
+                                <path
+                                    d="M21.3193 18.0769C21.768 17.6555 21.8321 17.0535 21.4475 16.4515C21.127 15.9699 20.5501 15.7291 19.9091 15.8495C19.6527 15.9097 19.3963 16.0301 19.1399 16.2107C17.1529 17.4749 14.4608 17.4147 12.4738 16.1505C12.3456 16.0903 12.2174 16.0301 12.0892 15.9699C11.3841 15.6689 10.679 15.7893 10.2945 16.3913C9.84577 16.9933 9.90986 17.6555 10.4867 18.1973C10.6149 18.3177 10.7431 18.3779 10.8072 18.4983L10.8713 18.5585C11.7687 19.2207 12.8584 19.6421 14.2685 19.8227L13.4352 20.6054C12.7302 21.2676 11.961 21.99 11.2559 22.6522C11.0636 22.8328 10.8072 23.1338 10.8072 23.5552C10.8072 24.097 11.1277 24.6388 11.7046 24.8796C11.8969 25 12.0892 25 12.2815 25C12.602 25 12.9866 24.8796 13.2429 24.5786C14.2044 23.6756 14.9736 22.9532 15.7428 22.2308C15.8069 22.1706 15.8069 22.1706 15.8069 22.1706C15.8069 22.1706 15.871 22.1706 15.871 22.2308C16.3837 22.7726 16.9606 23.2542 17.4734 23.796C17.7298 24.0368 17.9862 24.2776 18.2426 24.5184C18.5631 24.8194 18.8195 24.9398 19.204 24.9398C19.7809 25 20.4219 24.6388 20.6783 24.097C20.9347 23.6154 20.8065 23.0134 20.3578 22.6522C19.7168 22.0502 19.0759 21.388 18.3708 20.786L17.2811 19.7625C17.858 19.7023 18.499 19.5819 19.0759 19.3411C20.0373 19.0401 20.7424 18.6187 21.3193 18.0769Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <a class="footer__contact" href="mailto:example@mail.com">example@mail.com</a>
+                <a class="footer__contact" href="tel:88005555522">8&nbsp;800&nbsp;555 55&nbsp;22</a>
+                <a href="" class="footer__contact footer__contact--tg">          
+                    Написать нам</a>
+            </div>
+            <div class="footer__bottom flex">
+                <ul class="payment list-reset flex">
+                    <li class="payment__item">
+                        <img src="img/MNP.png" alt="">
+                    </li>
+                    <li class="payment__item">
+                        <img src="img/Maestro.png" alt="">
+                    </li>
+                    <li class="payment__item">
+                        <img src="img/Mastercard.png" alt="">
+                    </li>
+                    <li class="payment__item">
+                        <img src="img/Visa.png" alt="">
+                    </li>
+                </ul>
+                <ul class="list-reset policy flex">
+                    <li class="policy__item">
+                        <a class="policy__link" href="">Политика конфиденциальности</a>
+                    </li>
+                    <li class="policy__item">
+                        <a class="policy__link" href="">Сделано в CoffeeStudio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
