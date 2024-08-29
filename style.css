@@ -922,6 +922,10 @@ body {
   color: var(--black);
 }
 
+.content__block {
+  scroll-margin-top: 60px;
+}
+
 @media (max-width: 1440px) {
   .product__btns {
     flex-wrap: wrap;

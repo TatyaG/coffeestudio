@@ -35,10 +35,8 @@ const tabContents = document.querySelectorAll('.tabs__content .content__block');
 tabLinks.forEach(el => {
   el.addEventListener('click', (e) => {
     e.preventDefault();
-    const dataTab = el.getAttribute('data-tab');
 
     for (let i = 0; i < tabLinks.length; i++) {
-      console.log(tabLinks[i])
       tabLinks[i].classList.remove('tabs__link--active');
       tabContents[i].classList.remove('content__block--active');
 
@@ -47,7 +45,6 @@ tabLinks.forEach(el => {
         tabContents[i].classList.add('content__block--active');
       }
     }
-
 
   })
 })
@@ -83,7 +80,7 @@ btnCart.addEventListener('click', (e) => {
   else {
     btnCart.children[0].textContent = 'Убрать из корзины';
   }
-  
+
   btnCart.classList.toggle('product__btn--active');
 
 })
@@ -97,7 +94,27 @@ btnFav.addEventListener('click', (e) => {
   else {
     btnFav.children[0].textContent = 'Убрать из избранного';
   }
-  
+
   btnFav.classList.toggle('product__btn--active');
 
+})
+
+
+// Прокрутка до блока Описание
+
+const goToDesc = document.querySelector('.product__link--desc');
+goToDesc.addEventListener('click', (e) => {
+  e.preventDefault();
+  tabLinks.forEach(el => {
+    el.classList.remove('tabs__link--active');
+    if (el.getAttribute('data-tab') == 'desc') el.classList.add('tabs__link--active');
+  })
+
+  tabContents.forEach(el => {
+    el.classList.remove('content__block--active');
+    if (el.getAttribute('data-content') == 'desc') el.classList.add('content__block--active');
+  })
+  
+  const el = document.querySelector('.content__block[data-content="desc"]');
+  el.scrollIntoView({ behavior: "smooth" });
 })
