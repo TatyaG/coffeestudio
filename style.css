@@ -500,6 +500,23 @@ body {
   color: white;
 }
 
+.product__btn--cart.product__btn--active {
+  background-color: transparent;
+  outline: 1px solid var(--dark-blue);
+  color: var(--dark-blue);
+}
+
+.product__btn--favorites.product__btn--active {
+  background-color: transparent;
+  outline: 1px solid var(--purple);
+  color: var(--purple);
+}
+
+.product__btn--favorites.product__btn--active path {
+  fill: var(--purple);
+  stroke: var(--purple);
+}
+
 
 .section {
   padding: 24px 0;
@@ -519,6 +536,7 @@ body {
   border: 1px solid var(--dark-blue);
   color: var(--dark-blue);
   transition: color .3s ease-in-out, background-color .3s ease-in-out;
+  text-align: center;
 }
 
 .tabs__link:hover {
@@ -731,6 +749,12 @@ body {
 .form__input {
   padding: 12px 20px;
   width: 100%;
+}
+
+.form__input::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: #A9A9A9;
 }
 
 .form__btn {
@@ -1023,7 +1047,15 @@ body {
   .nav__list {
     flex-wrap: nowrap;
     overflow-x: auto;
+
   }
+
+  .nav__list::-webkit-scrollbar {
+    width: 0;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+  }
+
 
   .nav__link {
     white-space: nowrap;
@@ -1046,7 +1078,6 @@ body {
   }
 
   .footer__menu {
-    /* grid-template-columns: 1fr; */
     gap: 24px;
   }
 
@@ -1087,7 +1118,13 @@ body {
   }
 
   .tabs__list {
-    gap: 10px;
+    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tabs__link {
+    padding: 6px;
   }
 
   .section {
@@ -1152,6 +1189,10 @@ body {
 
   .catalog__btn {
     font-size: 14px;
+  }
+
+  .checkbox__input:checked~.checkbox__icon::before {
+    font-size: 10px;
   }
 
 

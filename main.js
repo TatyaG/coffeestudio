@@ -63,7 +63,7 @@ favBtns.forEach(el => {
   })
 })
 
-// Каталог
+// Меню Каталог
 
 const catalogBtn = document.querySelector('.catalog__btn');
 const catalogMenu = document.querySelector('.catalog__menu');
@@ -71,5 +71,33 @@ const catalogMenu = document.querySelector('.catalog__menu');
 catalogBtn.addEventListener('click', (e) => {
   e.preventDefault();
   catalogMenu.classList.toggle('catalog__menu--open');
+
+})
+
+// Добавить в корзину
+
+const btnCart = document.querySelector('.product__btn--cart');
+btnCart.addEventListener('click', (e) => {
+  e.preventDefault();
+  if (btnCart.classList.contains('product__btn--active')) btnCart.children[0].textContent = 'Добавить в корзину'
+  else {
+    btnCart.children[0].textContent = 'Убрать из корзины';
+  }
+  
+  btnCart.classList.toggle('product__btn--active');
+
+})
+
+// Добавить в избранное
+
+const btnFav = document.querySelector('.product__btn--favorites');
+btnFav.addEventListener('click', (e) => {
+  e.preventDefault();
+  if (btnFav.classList.contains('product__btn--active')) btnFav.children[0].textContent = 'Добавить в избранное'
+  else {
+    btnFav.children[0].textContent = 'Убрать из избранного';
+  }
+  
+  btnFav.classList.toggle('product__btn--active');
 
 })
